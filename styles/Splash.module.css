@@ -1,0 +1,29 @@
+.splash {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: opacity 1s ease-out;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+.slogan {
+  font-size: 1.2rem;
+  color: #777;
+  margin-top: 5px;
+}
+
+.fadeOut {
+  opacity: 0;
+}
