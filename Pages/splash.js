@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import styles from "../styles/Splash.module.css";
+import styles from "../styles/splash.module.css";
 
 export default function SplashScreen({ onFinish }) {
   const [fade, setFade] = useState(false);
